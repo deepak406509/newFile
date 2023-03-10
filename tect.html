@@ -1,0 +1,11 @@
+//To make the 3rd element in the list have green background color
+const itemsList = document.getElementById("items");
+const thirdItem = itemsList.children[2];
+thirdItem.style.backgroundColor = "green";
+
+//To make all the elements in the list have bold color font
+const itemsList = document.getElementById("items");
+const allItems = itemsList.children;
+for (let i = 0; i < allItems.length; i++) {
+  allItems[i].style.fontWeight = "bold";
+}
